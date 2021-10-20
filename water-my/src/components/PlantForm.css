@@ -1,0 +1,31 @@
+#plantform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.plant-form-container{
+    display: flex;
+    flex-direction:column;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10% auto; */
+}
+.form-group-inputs{
+    display:flex;
+    flex-direction:column;
+    width:70%;
+    text-align:center;
+}
+button {
+    background-color: #F0FFFF;
+    border: none;
+    color: lightseagreen;
+    margin-bottom: 30px;
+}

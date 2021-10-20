@@ -1,0 +1,113 @@
+.form-inputs input {
+    background:transparent;
+    border-radius: 25%;
+    /* border: none; */
+    color: darkgrey;
+    outline: none;
+}
+#login {
+    text-decoration: none;
+    background: transparent;
+    font-weight: bolder;
+}
+
+.signup-form-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.signup-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.form-inputs {
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 1%;
+    width: 50%;
+    border: 0;
+}
+
+#username:hover {
+    background-color: ivory;
+}
+
+#password:hover {
+    background-color: ivory;
+}
+
+#phonenumber:hover {
+    background-color: ivory;
+}
+
+.signup-container {
+    height: 50vh;
+    padding: 0 5%;
+}
+
+#signup-form {
+    display: flex;
+    height: 70vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    /* padding: 12% 1%; */
+    
+}
+
+#signup-button {
+    /* width: 4%; */
+    border-radius: 8%;
+    background: transparent;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
