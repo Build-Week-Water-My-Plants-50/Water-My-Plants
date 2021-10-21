@@ -1,11 +1,12 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import axiosWithAuth from "./axiosWithAuth";
 import { useHistory } from "react-router-dom";
+import PlantEdit from "./Edit_Plant.js"
 
 export default function Plant(props) {
     const { push } = useHistory();
     const { plant, plants, set_plant_values} = props;
-
+    const [isToggled, setIsToggled] = useState(false)
 
 
 
@@ -54,8 +55,9 @@ export default function Plant(props) {
                 <p>Species: {plant.species}</p>
                 <p>Water frequency? {plant.h2oFrequency}</p>
                 <img src={`${plant.image}`} alt={`Image of a ${plant.nickname}.`}/>
-                <button onChange={update_form}>Edit Plant</button>
+                <button onClick={() => setIsToggled(!isToggled)}>Edit</button>
                 <button onClick={delete_plant}>Delete Plant</button>
+                {isToggled && <PlantEdit plant={plant} isToggled={isToggled} set_plant_values={set_plant_values} plants={plants}/>}
             </div>
 
         </>
