@@ -1,6 +1,5 @@
-import React, {useEffect, useState } from "react"
+import React, { useState } from "react"
 import './App.css';
-import axios from 'axios';
 import { Route, Switch } from "react-router-dom";
 
 import PrivateRoute from "./components/PrivateRoute";
@@ -26,9 +25,9 @@ function App() {
             </div>
                 <div id="app-body">
                     <Switch>
-                        <Route path="/profile">
+                        <PrivateRoute path="/profile">
                             <UserProfile />
-                        </Route>
+                        </PrivateRoute>
                         <PrivateRoute path="/PlantForm">
                             <PlantForm plants = {plants} set_plant_values={set_plant_values}/>
                         </PrivateRoute>

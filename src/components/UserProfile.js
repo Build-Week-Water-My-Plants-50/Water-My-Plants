@@ -3,7 +3,6 @@ import { useHistory } from 'react-router';
 import "./UserProfile.css";
 import axiosWithAuth from "./axiosWithAuth";
 
-
 const initialValues = {
     username: "",
     password:"",
