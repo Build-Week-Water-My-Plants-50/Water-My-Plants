@@ -3,6 +3,7 @@ import axiosWithAuth from "./axiosWithAuth";
 import { useHistory } from "react-router-dom";
 import PlantEdit from "./Edit_Plant.js"
 
+
 export default function Plant(props) {
     const { push } = useHistory();
     const { plant, plants, set_plant_values} = props;
