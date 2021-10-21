@@ -43,9 +43,9 @@ export default function UserProfile() {
 
     return(
         <>
-            <div >
-                <form >
-                    <div>
+            <div id="profile-container">
+                <form id="user-form">
+                    <div id="inner-div">
                         <div >
                             <label>{user.username}</label>
 

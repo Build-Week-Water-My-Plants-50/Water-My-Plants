@@ -1,53 +1,29 @@
+#profile-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    height: 70vh;
+}
+
+#inner-div {
+    width:70%;
+    margin: 0 auto;
+}
+
+#user-form {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
 button {
     border: none;
     color: lightseagreen;
     background-color: #F0FFFF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
