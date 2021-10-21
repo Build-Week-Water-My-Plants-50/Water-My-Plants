@@ -12,14 +12,14 @@ const initialValues = {
 
 
 
-export default function Signup() {
+export default function UserProfile() {
     const { push } = useHistory();
     const [formValues, setFormValues] = useState(initialValues);
 
-    const handleChange = (e) => {
+    const handleChange = (evt) => {
         setFormValues({
             ...formValues,
-            [e.target.name]: e.target.value
+            [evt.target.name]: evt.target.value
         });
     };
 
@@ -34,8 +34,7 @@ export default function Signup() {
                 console.log(err.message);
             })
             .finally(() => {
-                setFormValues(formValues)
-                console.log(formValues);
+                setFormValues(initialValues)
             })
     };
 
@@ -92,51 +91,3 @@ export default function Signup() {
         </>
     )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
