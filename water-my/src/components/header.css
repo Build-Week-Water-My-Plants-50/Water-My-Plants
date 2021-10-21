@@ -11,9 +11,9 @@ header nav{
     width:70%;
     align-items:center;
     padding:10px;
-    /* background-color:white; */
-    /*border-top: 1px dashed lightseagreen;*/
-    /*border-bottom: 1px dashed lightseagreen;*/
+    background-color:white;
+    border-top: 1px dashed lightseagreen;
+    border-bottom: 1px dashed lightseagreen;
 }
 
 header h1{
