@@ -9,8 +9,6 @@ const initialValues = {
     phonenumber: ""
 };
 
-
-
 export default function UserProfile() {
     const { push } = useHistory();
     const [formValues, setFormValues] = useState(initialValues);
@@ -36,17 +34,6 @@ export default function UserProfile() {
                 setFormValues(initialValues)
             })
     };
-
-    useEffect(() => {
-        axiosWithAuth().get("https://watermyplantsweb46.herokuapp.com/api/users")
-            .then(res => {
-                console.log(res.data)
-            })
-            .catch(err => {
-                console.error(err)
-            })
-    }, [])
-
 
 
     return (
