@@ -1,7 +1,6 @@
 header{
     display: flex;
     width:100%;
-    /* flex-direction:column; */
     top: 0;
     background-color:#F0FFFF ;
 }
@@ -11,23 +10,29 @@ header nav{
     width:70%;
     align-items:center;
     padding:10px;
-    /* background-color:white;
-    border-top: 1px dashed lightseagreen;
-    border-bottom: 1px dashed lightseagreen; */
 }
 
 header h1{
-    width:100%;
+    width:30%;
     display:flex;
     justify-content:flex-start;
     align-items:flex-start; 
     padding-left:20px;
-    height:50px; 
     font-size:3rem;
     margin:20px;
 }
 
 nav a:hover{
     font-weight:bold;
+}
+
+#logout-style{
+    color:#F0FFFF ;
+    background-color: lightseagreen;
+    width:60%;
+    margin-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 20px;
 }
 
