@@ -34,7 +34,7 @@ export default function Signup() {
                 console.log(err.message);
             })
             .finally(() => {
-                setFormValues(formValues)
+                setFormValues(initialValues)
                 console.log(formValues);
             })
     };
