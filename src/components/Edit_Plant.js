@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import * as yup from "yup";
 import schema from "../Form_Schema";
 import axiosWithAuth from "./axiosWithAuth";
+import { useHistory } from "react-router-dom";
 
 
 const initial_disabled = true;
@@ -18,8 +19,8 @@ const initial_form_errors={
     image:""
 }
 export default function PlantEdit(props){
-    const { plants, plant, set_plant_values, isToggled} = props
-
+    const { plant, isToggled} = props
+    const {push} = useHistory();
     const [edit_form_values, set_edit_form_values] = useState(initial_form_values);
     const [disabled, set_disabled] = useState(initial_disabled);
     const [errors, set_errors]=useState(initial_form_errors);
@@ -30,6 +31,7 @@ export default function PlantEdit(props){
         axiosWithAuth().put(`https://watermyplantsweb46.herokuapp.com/api/plants/${plant.plants_id}`,new_plant)
             .then(res => { 
                 set_edit_form_values(initial_form_values)
+
             })
             .catch(err => {
                 console.error(err);
