@@ -5,7 +5,7 @@
   justify-content:center;
   align-items:center; */
   width:100vw;
-  height:100vh;
+  height:auto;
   padding-bottom: 27%;
   margin: 0;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 #app-body {
-  height:70vh;
+  height:auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-image:url("https://images.unsplash.com/photo-1477554193778-9562c28588c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
