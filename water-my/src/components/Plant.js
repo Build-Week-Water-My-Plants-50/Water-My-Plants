@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 import PlantEdit from "./Edit_Plant.js";
 import './Plant.css';
 
+
 export default function Plant(props) {
     const { push } = useHistory();
     const { plant, plants, set_plant_values} = props;
