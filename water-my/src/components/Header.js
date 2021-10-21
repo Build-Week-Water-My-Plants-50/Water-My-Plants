@@ -20,7 +20,7 @@ export default function Header() {
                 <Link className="header-link" to="/signup">Sign Up</Link>
                 <Link className="header-link" to="profile">Profile</Link>
                 <Link className="header-link" to="login">Login</Link>
-                <a className="header-link" href="/" onClick={logout}>Log Out</a>
+                <a className="header-link" id="logout-button" href="/" onClick={logout}>Log Out</a>
             </nav>
         </header>
     )
