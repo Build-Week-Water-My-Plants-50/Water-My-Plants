@@ -1,8 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import * as yup from "yup";
 import schema from "../Form_Schema";
-import "./PlantForm.css"
+import "./PlantForm.css";
 import axiosWithAuth from "./axiosWithAuth";
+import styled from "styled-components";
+
+const Styled_div = styled.div`
+  border: 2px darkslategrey solid;
+
+`
+
 
 
 const initial_disabled = true;
