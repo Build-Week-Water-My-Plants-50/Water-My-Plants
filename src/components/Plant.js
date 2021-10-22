@@ -23,7 +23,6 @@ export default function Plant(props) {
             })
     }
 
-
     return (
         <>
             <div className="plant-card">
@@ -36,8 +35,10 @@ export default function Plant(props) {
                 <button id="delete-button" onClick={delete_plant}>Delete Plant</button>
                 {isToggled && <PlantEdit plant={plant} isToggled={isToggled} set_plant_values={set_plant_values} plants={plants}/>}
             </div>
-
         </>
     )
-
 }
+
+
+
+

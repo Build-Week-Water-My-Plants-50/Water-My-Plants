@@ -31,7 +31,6 @@ export default function PlantEdit(props){
         axiosWithAuth().put(`https://watermyplantsweb46.herokuapp.com/api/plants/${plant.plants_id}`,new_plant)
             .then(res => { 
                 set_edit_form_values(initial_form_values)
-
             })
             .catch(err => {
                 console.error(err);

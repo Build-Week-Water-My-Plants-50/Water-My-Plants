@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 70vh;
+    /*border: 2px darkslategrey solid;*/
 }
 
 .plant-form-container{
@@ -15,12 +16,14 @@
     height: 80%;
     justify-content: center;
     align-items: center;
-    /* margin: 10% auto; */
+     margin: 10% auto;
+    border: 2px darkslategrey solid;
+    padding-bottom: 2.5%;
 }
 .form-group-inputs{
     display:flex;
     flex-direction:column;
-    width:70%;
+    width: 22.5%;
     text-align:center;
 }
 button {
@@ -29,3 +32,24 @@ button {
     color: lightseagreen;
     margin-bottom: 30px;
 }
+
+.form-group-inputs {
+
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
