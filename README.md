@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# WaterMyPlants
+
+This directory is the frontend to the WaterMyPlants application. The purpose of the WaterMyPlants application is to help plant enthusiast keep track of their plants watering schedule. The application was built with React.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Deployed Project
+
+The application's frontend of the application is deployed using Vercel and can be viewed by clicking the link below.
+
+Live Example: https://workspace-zeta.vercel.app/
 
 ## Available Scripts
 
